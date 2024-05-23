@@ -1,0 +1,25 @@
+#header{
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    nav{
+        ul{
+            font-weight: 500;
+            margin-right: -250px;
+            display: flex;
+            gap: 2rem;
+        }
+    }
+    .social{
+        display: flex;
+        align-items: center;
+    }
+}
+.coloshop{
+    display: flex;
+    .shop{
+        color: #FE4C50;
+    }
+}

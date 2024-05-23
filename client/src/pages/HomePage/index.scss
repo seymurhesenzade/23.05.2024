@@ -1,0 +1,89 @@
+.home-page {
+  background-size: cover;
+  padding: 250px 0;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("https://preview.colorlib.com/theme/coloshop/images/slider_1.jpg");
+  h1 {
+    color: rgb(67, 66, 66);
+    width: 450px;
+    font-size: 50px;
+  }
+  .btn {
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    background-color: #fe4c50;
+    margin-top: 20px;
+    width: 150px;
+    padding: 0.6rem;
+  }
+}
+.images {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  .women {
+    height: 270px;
+    width: 30%;
+    background-image: url("https://preview.colorlib.com/theme/coloshop/images/banner_1.jpg");
+    .women-btn {
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: 700;
+      padding: 1rem;
+      width: 150px;
+      background-color: white;
+      margin-top: 130px;
+      margin-left: 115px;
+      border: none;
+    }
+  }
+  .accessories {
+    height: 270px;
+    width: 30%;
+    background-image: url("https://preview.colorlib.com/theme/coloshop/images/banner_2.jpg");
+    .accss-btn {
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: 700;
+      padding: 1rem;
+      width: 150px;
+      background-color: white;
+      margin-top: 130px;
+      margin-left: 115px;
+      border: none;
+    }
+  }
+  .men {
+    height: 270px;
+    width: 30%;
+    background-image: url("https://preview.colorlib.com/theme/coloshop/images/banner_3.jpg");
+    .men-btn {
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: 700;
+      padding: 1rem;
+      width: 150px;
+      background-color: white;
+      margin-top: 130px;
+      margin-left: 115px;
+      border: none;
+    }
+  }
+}
+
+#card{
+  margin-top: 50px;
+text-align: center;
+h1{
+  font-size: 50px;
+}
+.tab{
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}
