@@ -17,7 +17,7 @@ const Header = () => {
           <nav>
             <ul>
               <li>
-                <Link style={{ color: "black" }}>Home</Link>
+                <Link to="/" style={{ color: "black" }}>Home</Link>
               </li>
               <li>
                 <Link style={{ color: "black" }}>Shop</Link>
@@ -26,7 +26,7 @@ const Header = () => {
                 <Link style={{ color: "black" }}>Promotion</Link>
               </li>
               <li>
-                <Link style={{ color: "black" }}>Pages</Link>
+                <Link to="/add-product" style={{ color: "black" }}>Add Page</Link>
               </li>
               <li>
                 <Link style={{ color: "black" }}>Blog</Link>
